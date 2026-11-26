@@ -58,11 +58,11 @@ Como extensión se puede incluir NMF sobre la matriz TF-IDF.
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | FECHA a FECHA |
-| Preprocesamiento, análisis exploratorio | 2 semanas | FECHA a FECHA |
-| Modelamiento y extracción de características | 3 semanas | FECHA a FECHA |
-| Despliegue | 1 semana | FECHA a FECHA |
-| Evaluación y entrega final | 1 semana | FECHA a FECHA |
+| Entendimiento del negocio y carga de datos | 1 semana | Semana del 16 de Nov 2026 |
+| Preprocesamiento, análisis exploratorio | 1 semana | Semana del 23 de Nov 2026 |
+| Modelamiento y extracción de características | 1 semana | Semana del 30 de Nov 2026 |
+| Despliegue | 1 semana | Semana del 7 de Dic 2026 |
+| Evaluación y entrega final | 1 semana | Semana del 14 de Dic 2026 |
 
 ## Equipo del Proyecto
 
