@@ -3,3 +3,21 @@
 env_vars*
 credentials*
 **/build/*
+
+# Datos crudos (se descargan con scripts/data_acquisition/main.py)
+data/
+job_*.csv
+
+# Artefactos que genera el notebook (embeddings, modelos, corpus procesados)
+artefactos/
+*.npy
+*.pkl
+*.parquet
+*.safetensors
+
+# Entornos y archivos locales
+.venv/
+.ipynb_checkpoints/
+*.egg-info/
+sample_data/
+kaggle.json

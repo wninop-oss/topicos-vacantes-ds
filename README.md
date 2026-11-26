@@ -1,10 +1,24 @@
-# Team Data Science Project Template
+# Descubrimiento de tópicos en vacantes de ciencia de datos
 
-Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process que actualmente se utiliza en el "Programa de Formación en Machine Learning y Data Science" en la Universidad Nacional de Colombia.
+Proyecto aplicado del Programa de Formación en Machine Learning y Data Science (UNAL),
+desarrollado con la metodología TDSP.
 
-Esta plantilla proporciona las siguientes carpetas y archivos:
+Identificamos los temas y habilidades más demandados en ofertas de empleo de ciencia de
+datos publicadas en LinkedIn en 2024, usando modelado de tópicos (LDA, BERTopic).
 
-* `src`: acá debe ir el código o implementación del proyecto en Python.
-* `docs`: en esta carpeta se encuentran las plantillas de los documentos definidos en la metodología.
-* `scripts`: esta carpeta debe contener los scripts/notebooks que se ejecutarán.
-* `pyproject.toml`: archivo de definición del proyecto en Python.
+## Integrantes
+- Wolffang David Niño Pacheco
+- Nicolle Stefania Quintero
+- Sergio Eliecer Guecha León
+
+## Cómo ejecutar
+
+    python -m venv .venv
+    source .venv/bin/activate        # Windows: .venv\Scripts\activate
+    pip install -e .
+    python scripts/data_acquisition/main.py
+
+## Estructura
+- `docs/`: documentos de la metodología TDSP.
+- `scripts/`: scripts que se ejecutan en cada etapa.
+- `src/topicos_vacantes/`: código del proyecto como paquete de Python.

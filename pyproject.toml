@@ -3,13 +3,35 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nombre_paquete"
+name = "topicos_vacantes"
 version = "0.1.0"
-authors = [{name = "autor1", email = "correo@correo.com"}]
-description = "Descripción del proyecto"
-requires-python = ">3.8"
+authors = [
+    {name = "Wolffang David Niño Pacheco", email = "wninop@unal.edu.co"},
+    {name = "Nicolle Stefania Quintero", email = "nquinterom@unal.edu.co"},
+    {name = "Sergio Eliecer Guecha León", email = "seguechal@unal.edu.co"},
+]
+description = "Descubrimiento de tópicos en vacantes de ciencia de datos de LinkedIn (2024) con LDA y BERTopic"
+readme = "README.md"
+requires-python = ">=3.10"
 dependencies = [
-    "numpy"
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "kagglehub",
+    "matplotlib",
+    "scipy",
+    "scikit-learn",
+    "nltk",
+]
+
+[project.optional-dependencies]
+modelado = [
+    "gensim",
+    "sentence-transformers",
+    "umap-learn",
+    "hdbscan",
+    "bertopic",
+    "wordcloud",
 ]
 
 [tool.setuptools.packages.find]
