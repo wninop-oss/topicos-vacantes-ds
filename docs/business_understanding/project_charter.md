@@ -83,9 +83,3 @@ en Python.
 - Estudiantes y profesionales interesados en ciencia de datos: quieren saber qué perfiles y
   habilidades pide el mercado.
 - Docentes del curso: esperan un proyecto que aplique correctamente la metodología TDSP.
-
-## Aprobaciones
-
-- NOMBRE DEL DOCENTE – Docente del curso
-- Firma: ____________________
-- Fecha de aprobación: ____________________
