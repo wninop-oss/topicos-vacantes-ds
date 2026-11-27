@@ -38,7 +38,7 @@ descargan con la librería `kagglehub`.
 
 ### Base de datos de destino
 
-- Destino: archivo `data/processed/corpus.parquet` (no se sube al repositorio; se genera con el script).
+- Destino: archivo `data/processed/corpus.parquet` (generado con el script; los datos también se incluyen en el repositorio).
 - Estructura: una fila por vacante única (9.661), con las 15 columnas de `job_postings` más
   `job_summary` y `job_skills`.
 - Carga: se escribe con `pandas.DataFrame.to_parquet`, que conserva los tipos de dato.
