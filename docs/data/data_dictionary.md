@@ -11,11 +11,11 @@ Metadatos de cada vacante de ciencia de datos publicada en LinkedIn. Una fila po
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
 | job_link | URL de la vacante en LinkedIn; llave que une las tres tablas | Texto | Único por vacante | Kaggle - job_postings.csv |
-| last_processed_time | Fecha y hora en que el recolector procesó la vacante por última vez | Fecha-hora | Enero de 2024 | Kaggle - job_postings.csv |
-| last_status | Estado del procesamiento de la vacante en la recolección | Categórica | Completar con perfil_datos.py | Kaggle - job_postings.csv |
-| got_summary | Indica si se descargó la descripción de la vacante | Booleana | t, f | Kaggle - job_postings.csv |
-| got_ner | Indica si se extrajeron las habilidades con NER | Booleana | t, f | Kaggle - job_postings.csv |
-| is_being_worked | Indicador interno del proceso de recolección | Booleana | t, f | Kaggle - job_postings.csv |
+| last_processed_time | Fecha y hora en que el recolector procesó la vacante por última vez | Fecha-hora | 19 al 21 de Enero de 2024 | Kaggle - job_postings.csv |
+| last_status | Estado del procesamiento de la vacante en la recolección | Categórica | Finished NER (único valor) | Kaggle - job_postings.csv |
+| got_summary | Indica si se descargó la descripción de la vacante | Booleana | t (todas las vacantes) | Kaggle - job_postings.csv |
+| got_ner | Indica si se extrajeron las habilidades con NER | Booleana | t(todas las vacantes) | Kaggle - job_postings.csv |
+| is_being_worked | Indicador interno del proceso de recolección | Booleana | f ( todas las vacantes) | Kaggle - job_postings.csv |
 | job_title | Título del cargo publicado; de él se derivan el nivel (seniority) y la familia de rol | Texto | Texto libre | Kaggle - job_postings.csv |
 | company | Empresa u organización que publica la vacante | Categórica nominal | Texto libre (miles de empresas) | Kaggle - job_postings.csv |
 | job_location | Ciudad de la vacante | Categórica nominal | 1.816 ubicaciones distintas en el corpus | Kaggle - job_postings.csv |
